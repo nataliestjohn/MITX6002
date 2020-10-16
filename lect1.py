@@ -54,5 +54,5 @@ class Food(object):
             print(' ', item)
             
             
-f2 = lambda x,y : x + y
+
 
