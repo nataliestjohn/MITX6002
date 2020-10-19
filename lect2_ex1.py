@@ -6,6 +6,7 @@ Created on Fri Oct 16 16:10:14 2020
 """
 
 
+
 def powerSet(items):
     
     '''determine possible combinations of items'''
@@ -43,7 +44,9 @@ def yieldAllCombos(items):
             yield (bag1, bag2)
 
 
+
 # test function
+lis = []
 items = range(3)
 for each in yieldAllCombos(items):
-    print(each)
+    lis.append(each)
